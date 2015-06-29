@@ -1,0 +1,277 @@
+@font-face {
+    font-family: 'IconicFill';
+    src: url('open-iconic.woff');
+    font-weight: normal;
+    font-style: normal;
+    
+}
+
+* {
+    margin: 0;
+    
+}
+
+body {
+    font-family: sans-serif,"IconicFill";
+    background-color: #222224;
+}
+
+main {
+    width: 100%;
+}
+
+.oi {
+    color: white;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav {
+    border: 1px solid white;
+    
+    background-color: #222224;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 258px;
+    padding: 20px 0 20px 20px;
+}
+
+p, h1 {
+    margin: 0;
+    padding: 0px;
+    display: block;
+}
+
+
+.brand {
+    
+    text-align: center;
+    margin: 0 20px 10px 0;
+    font-size: 30px;
+    font-family: monospace;
+    font-stretch: ultra-condensed;
+    color: #999;
+    
+}
+
+.oi[data-glyph="audio-spectrum"] {
+    margin: 0 10px 0 10px;
+    color: #AAA;
+    font-size: 1em;
+    vertical-align: middle;
+}
+
+
+input {
+    -webkit-writing-mode: horizontal-tb;
+    -webkit-rtl-ordering: logical;
+    text-align: start;
+}
+.div-search {
+    background-color: #D1D1D7;
+    border-radius: 3px;
+    padding: 9px 9px;
+    margin-right: 20px;
+    
+}
+
+.div-search a {
+    text-decoration-line: none;
+    color: transparent;
+    
+    
+}
+
+.search {
+    margin: 0 auto;
+    line-height: 1em;
+    text-align: right;
+    background-color: #D1D1D7;
+    width: 85%;
+    border: 0;
+    vertical-align: middle;
+    
+}
+.search::-webkit-input-placeholder {
+    color: #555;
+    font: 0.9em verdana, arial, sans-serif;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.search:focus {
+    border: 0px hidden #D1D1D7;
+    border-style: none;
+}
+
+.oi[data-glyph="magnifying-glass"], .oi[data-glyph="magnifying-glass"]::before, .oi[data-glyph="magnifying-glass"]::after {
+    text-decoration: none;
+    color: #555;
+    text-decoration-line: none;
+    font-size: 20px;
+    display: box-inline;
+    box-sizing: content-box;
+    vertical-align: middle;     
+    
+}
+
+ul {
+    list-style: none;
+    margin: 20px 0px 20px 0px;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+
+li {
+    line-height: 2em;
+    color: white;
+}
+
+.nav-user::before {
+    margin-right: 15px;
+}
+.user::before {
+    content: '\e0a9';
+}
+
+.user::after {
+    margin-left: 65px;
+    content: '\e041';
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.like::before {
+    content: '\e077';
+}
+.albuns::before {
+    content: '\e0c7'   
+}
+
+.app::before {
+    content: '\e0a9';
+}
+
+.play::before {
+    content: '\e0c1';
+}
+
+.divider {
+    height: 1px;
+    margin: 10px 20px 10px 0px;
+    background-color: #DDD;
+}
+hr {
+    margin: 0;
+    padding: 0;
+    height: 1px;
+    border: 0px solid transparent;
+    background-color: #bbb;
+    
+}
+
+ul.nav-user {
+    margin-bottom: 30px;
+}
+
+.player{
+    background-color: #AAA;
+    width: 280px;
+    height: 32%;
+    position: absolute;
+    bottom: 0;
+    box-sizing: border-box;
+    padding: 10px;
+
+}
+
+.player h1{
+    margin: 10px;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.player h2 {
+    margin: 10px;
+    font-size: 1em;
+    font-weight: normal;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+
+.oi[data-glyph="heart"] {
+    font-size: 15px;
+    background-color: rgba(0,0,0,0.7);
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.oi[data-glyph="microphone"]{
+    font-size: 15px;
+    background-color: rgba(0,0,0,0.7);
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin: 10px;
+    
+}
+.controls-up {
+    position: absolute;
+    bottom: 35px;
+    font-size: 1.7em;
+    text-align: center;
+    width: 260px;
+    margin: -5px;
+    
+    
+}
+
+.controls-down {
+    position: absolute;
+    bottom: 0;
+    width: 260px;
+    font-size: 1.5em;
+    text-align: justify;    
+}
+
+.controls-up .oi[data-glyph], .controls-down .oi[data-glyph] {
+    margin: 10px 10px 10px 10px;
+    vertical-align: middle;
+}
+
+.oi[data-glyph="media-play"]{
+    font-size: 50px;
+}
+
+.controls-up .oi[data-glyph="rss"]{
+    font-size: 1em;
+}
+
+.controls-down .oi[data-glyph="volume-high"]{
+    margin: 0 10px 0 0;
+}
+.controls-down .oi[data-glyph="loop-circular"]{
+    margin: 20px;
+}
+.controls-down .oi[data-glyph="random"]{
+    margin: 20px;
+}
+.controls-down .oi[data-glyph="list"]{
+    margin: 20px;
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
